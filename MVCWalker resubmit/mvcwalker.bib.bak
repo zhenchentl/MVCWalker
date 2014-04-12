@@ -1,0 +1,377 @@
+@article{Lee:impact,
+author = {Sooho Lee and Barry Bozeman},
+title = {The Impact of Research Collaboration on Scientific Productivity},
+volume = {35},
+number = {5},
+pages = {673-702},
+year = {2005},
+journal = {Social Studies of Science}
+}
+
+@inproceedings{Chen:CollabSeer,
+ author = {Hung-Hsuan Chen and Liang Gou and Xiaolong Zhang and Clyde Lee Giles},
+ title = {CollabSeer: A Search Engine for Collaboration Discovery},
+ booktitle = {Proceedings of the 11th annual international ACM/IEEE joint conference on Digital libraries (JCDL'11)},
+ year = {2011},
+ address = {Ottawa, Ontario, Canada},
+ pages = {231-240}
+}
+
+@incollection{Lopes:Colleboration,
+year={2010},
+booktitle={Advances in Conceptual Modeling ¨C Applications and Challenges},
+volume={6413},
+series={Lecture Notes in Computer Science},
+publisher={Springer Berlin Heidelberg},
+title={Collaboration Recommendation on Academic Social Networks},
+author={GiseliRabello Lopes and Mirella M. Moro and Leandro Krug Wives and Jos{\'e} Palazzo Moreira de Oliveira},
+pages={190-199}
+}
+
+@inproceedings{Backstrom:Supervised,
+ author = {Lars Backstrom and Jure Leskovec},
+ title = {Supervised Random Walks: Predicting and Recommending Links in Social Networks},
+ booktitle = {Proceedings of the fourth ACM international conference on Web search and data mining (WSDM'11)},
+ year = {2011},
+ address = {Hong Kong, China},
+ pages = {635-644}
+}
+
+@inproceedings{Jing:ACRec,
+  title={ACRec: A Co-authorship based Random Walk Model for Academic Collaboration Recommendation},
+  author={Li, Jing and Xia, Feng and Wang, Wei and Chen, Zhen and Asabere, Nana Yaw and Jiang, Huizhen},
+  booktitle = {The 23rd International World Wide Web Conference (WWW), Companion Volume},
+  year = {2014},
+  address = {Seoul, Korea}
+}
+
+@inproceedings{chin2012linking,
+  title={Linking people through physical proximity in a conference},
+  author={Chin, Alvin and Xu, Bin and Wang, Hao and Wang, Xia},
+  booktitle={Proceedings of the 3rd international workshop on Modeling social media},
+  pages={13--20},
+  year={2012},
+  organization={ACM}
+}
+@article{pavlov2007finding,
+  title={Finding Experts by Link Prediction in Co-authorship Networks.},
+  author={Pavlov, Milen and Ichise, Ryutaro},
+  journal={FEWS},
+  volume={290},
+  pages={42--55},
+  year={2007},
+  publisher={Citeseer}
+}
+
+@article{lee2011recommending,
+  title={Recommending collaborators using social features and mesh terms},
+  author={Lee, Danielle H and Brusilovsky, Peter and Schleyer, Titus},
+  journal={Proceedings of the American Society for Information Science and Technology},
+  volume={48},
+  number={1},
+  pages={1--10},
+  year={2011},
+  publisher={Wiley Online Library}
+}
+
+@incollection{glanzel2005analysing,
+  title={Analysing scientific networks through co-authorship},
+  author={Gl{\"a}nzel, Wolfgang and Schubert, Andr{\'a}s},
+  booktitle={Handbook of quantitative science and technology research},
+  pages={257--276},
+  year={2005},
+  publisher={Springer}
+}
+
+@article{liu2005co,
+  title={Co-authorship networks in the digital library research community},
+  author={Liu, Xiaoming and Bollen, Johan and Nelson, Michael L and Van de Sompel, Herbert},
+  journal={Information processing \& management},
+  volume={41},
+  number={6},
+  pages={1462--1480},
+  year={2005},
+  publisher={Elsevier}
+}
+
+@inproceedings{konstas2009social,
+  title={On social networks and collaborative recommendation},
+  author={Konstas, Ioannis and Stathopoulos, Vassilios and Jose, Joemon M},
+  booktitle={Proceedings of the 32nd international ACM SIGIR conference on Research and development in information retrieval},
+  pages={195--202},
+  year={2009},
+  organization={ACM}
+}
+
+@inproceedings{tong2006fast,
+  title={Fast random walk with restart and its applications},
+  author={Tong, Hanghang and Faloutsos, Christos and Pan, Jia-Yu},
+  booktitle = {Proceedings of the Sixth International Conference on Data Mining},
+  pages = {613--622},
+  year={2006}
+}
+
+@inproceedings{Ma:Recommender,
+ author = {Hao Ma and Dengyong Zhou and Chao Liu and Michael R. Lyu and Irwin King},
+ title = {Recommender Systems with Social Regularization},
+ booktitle = {Proceedings of the fourth ACM international conference on Web search and data mining (WSDM'11)},
+ year = {2011},
+ address = {Hong Kong, China},
+ pages = {287-296}
+}
+
+@inproceedings{Freyne:Social,
+ author = {Jill Freyne and Shlomo Berkovsky and Elizabeth M. Daly and Werner Geyer},
+ title = {Social Networking Feeds: Recommending Items of Interest},
+ booktitle = {Proceedings of the fourth ACM conference on Recommender systems (RecSys'10)},
+ year = {2010},
+ pages = {277-280}
+}
+
+@incollection{lopes2010collaboration,
+  title={Collaboration recommendation on academic social networks},
+  author={Lopes, Giseli Rabello and Moro, Mirella M and Wives, Leandro Krug and De Oliveira, Jos{\'e} Palazzo Moreira},
+  booktitle={Advances in Conceptual Modeling--Applications and Challenges},
+  pages={190--199},
+  year={2010},
+  publisher={Springer}
+}
+
+@incollection{He:SNRS,
+author={Jianming He and Wesley W. Chu},
+title={A Social Network-Based Recommender System (SNRS)},
+booktitle={Data Mining for Social Network Data},
+year={2010},
+volume={12},
+publisher={Springer US},
+series={Annals of Information Systems},
+pages={47-74}
+}
+
+@article{Perugini:Recommender,
+year={2004},
+journal={Journal of Intelligent Information Systems},
+volume={23},
+number={2},
+title={Recommender Systems Research: A Connection-Centric Survey},
+author={Saverio Perugini and Marcos Andr{\'e} Gon{\c{c}}alves and Edward A. Fox },
+pages={107-143}
+}
+
+@article {LN:linkprediction,
+author = {David Liben-Nowell and Jon Kleinberg, Jon},
+title = {The Link-Prediction Problem for Social Networks},
+journal = {Journal of the American Society for Information Science and Technology},
+volume = {58},
+number = {7},
+publisher = {Wiley Subscription Services, Inc., A Wiley Company},
+pages = {1019-1031},
+year = {2007}
+}
+
+@inproceedings{Brandao:using,
+ author = {Michele A. Brand{\~a}o and Mirella M. Moro and Giseli Rabello Lopes and Jos{\'e} P.M. Oliveira},
+ title = {Using Link Semantics to Recommend Collaborations in Academic Social Networks},
+ booktitle = {Proceedings of the 22nd international conference on World Wide Web companion (WWW'13 Companion)},
+ year = {2013},
+ pages = {833-840},
+}
+
+@inproceedings{Jamali:trustwalker,
+ author = {Mohsen Jamali and Martin Ester},
+ title = {TrustWalker: A Random Walk Model for Combining Trust-Based and Item-Based Recommendation},
+ booktitle = {Proceedings of the 15th ACM SIGKDD international conference on Knowledge discovery and data mining (KDD'09)},
+ year = {2009},
+ address = {Paris, France},
+ pages = {397-406}
+}
+
+@article{Liu:linkprediction,
+year={2010},
+journal={Europhysics Letters (EPL) },
+volume={89},
+number={5},
+title={Link Prediction Based on Local Random Walk},
+author={Weiping Liu and Linyuan Lv},
+pages={58007}
+}
+
+@article{Tong:RWR,
+year={2008},
+journal={Knowledge and Information Systems},
+volume={14},
+number={3},
+title={Random Walk with Restart: Fast Solutions and Applications},
+author={Hanghang Tong and Christos Faloutsos and Jia-Yu Pan},
+pages={327-346}
+}
+
+@inproceedings{Tong:center,
+ author = {Hanghang Tong and Christos Faloutsos},
+ title = {Center-Piece Subgraphs: Problem Definition and Fast Solutions},
+ booktitle = {Proceedings of the 12th ACM SIGKDD international conference on Knowledge discovery and data mining (KDD'06)},
+ year = {2006},
+ address = {Philadelphia, PA, USA},
+ pages = {404-413}
+}
+
+@article{Katz:what,
+title = {What is research collaboration?},
+journal = {Research Policy},
+volume = {26},
+number = {1},
+pages = {1-18},
+year = {1997},
+author = {J. Sylvan Katz and Ben R. Martin}
+}
+
+@article {Boyd:social,
+author = {Danah M. Boyd and Nicole B. Ellison},
+title = {Social Network Sites: Definition, History, and Scholarship},
+journal = {Journal of Computer-Mediated Communication},
+volume = {13},
+number = {1},
+pages = {210-230},
+year = {2007}
+}
+
+@ARTICLE{Fouss:RW,
+author={Fran{\c{c}}ois Fouss and Alain Pirotte and Jean-Michael Renders and Marco Saerens},
+journal={IEEE Transactions on Knowledge and Data Engineering},
+title={Random-Walk Computation of Similarities between Nodes of a Graph with Application to Collaborative Recommendation},
+year={2007},
+volume={19},
+number={3},
+pages={355-369}
+}
+
+@INPROCEEDINGS{Fouss:web,
+author={Fran{\c{c}}ois Fouss and Marco Saerens},
+booktitle={IEEE/WIC/ACM International Conference on Web Intelligence and Intelligent Agent Technology (WI-IAT'08)},
+title={Evaluating Performance of Recommender Systems: An Experimental Comparison},
+year={2008},
+volume={1},
+address={Sydney, Australia},
+pages={735-738}
+}
+
+@incollection{Shani:recommender,
+year={2011},
+booktitle={Recommender Systems Handbook},
+title={Evaluating Recommendation Systems},
+publisher={Springer US},
+author={Guy Shani and Asela Gunawardana},
+pages={257-297}
+}
+
+@article{Ley:DBLP,
+ author = {Michael Ley},
+ title = {DBLP: some lessons learned},
+ journal = {Proceedings of the VLDB Endowment},
+ volume = {2},
+ number = {2},
+ year = {2009},
+ pages = {1493-1500},
+ publisher = {VLDB Endowment}
+}
+
+@book{Baeza-Yates:modern,
+  title={Modern Information Retrieval: The Concepts and Technology Behind Search},
+  author={Ricardo Baeza-Yates and Berthier Ribeiro-Neto},
+  year={2011},
+  edition={2},
+  publisher={Addison Wesley Professional}
+}
+
+@book{Barabasi:linked,
+  title={Linked: The New Science of Networks Science Of Networks},
+  author={ Albert-L{\'a}szl{\'o} Barab{\'a}si and Jennifer Frangos},
+  year={2002},
+  publisher={Basic Books}
+}
+
+@article{Barabasi:evolution,
+title = {Evolution of the social network of scientific collaborations},
+journal = {Physica A: Statistical Mechanics and its Applications},
+volume = {311},
+number = {3-4},
+pages = {590-614},
+year = {2002},
+author = {A. L. Barab{\'a}si and H. Jeong and Z. N{\'e}da and E. Ravasz and A. Schubert and T. Vicsek}
+}
+
+@article{Newman:scientific,
+  title = {Scientific collaboration networks.$\hskip0.3em${}$\hskip0.3em${}I. Network construction and fundamental results},
+  author = {M. E. J. Newman},
+  journal = {Physical Review E},
+  volume = {64},
+  number = {1},
+  pages = {016131},
+  year = {2001},
+  month = {Jun},
+  publisher = {American Physical Society}
+}
+
+@inproceedings{Lichtenwalter:new,
+ author = {Ryan N. Lichtenwalter and Jake T. Lussier and Nitesh V. Chawla},
+ title = {New perspectives and methods in link prediction},
+ booktitle = {Proceedings of the 16th ACM SIGKDD international conference on Knowledge discovery and data mining (KDD'10)},
+ year = {2010},
+ address = {Washington, DC, USA},
+ pages = {243-252},
+ publisher = {ACM}
+}
+
+@incollection{Ley:DBLPEvolution,
+year={2002},
+booktitle={String Processing and Information Retrieval},
+volume={2476},
+series={Lecture Notes in Computer Science},
+editor={Alberto H. F. Laender and Arlindo L. Oliveira},
+title={The DBLP Computer Science Bibliography: Evolution, Research Issues, Perspectives},
+publisher={Springer Berlin Heidelberg},
+author={Michael Ley},
+pages={1-10}
+}
+
+@inproceedings{Tang:arnetminer,
+ author = {Jie Tang and Jing Zhang and Limin Yao and Juanzi Li and Li Zhang and Zhong Su},
+ title = {ArnetMiner: extraction and mining of academic social networks},
+ booktitle = {Proceedings of the 14th ACM SIGKDD international conference on Knowledge discovery and data mining (KDD'08)},
+ year = {2008},
+ address = {Las Vegas, Nevada, USA},
+ pages = {990-998},
+ publisher = {ACM}
+}
+
+@inproceedings{Tang:cross-domain,
+ author = {Jie Tang and Sen Wu and Jimeng Sun and Hang Su},
+ title = {Cross-domain collaboration recommendation},
+ booktitle = {Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining (KDD'12)},
+ year = {2012},
+ address = {Beijing, China},
+ pages = {1285-1293},
+ publisher = {ACM}
+}
+
+@inproceedings{Toscher:improved,
+ author = {Andreas T\"{o}scher and Michael Jahrer and Robert Legenstein},
+ title = {Improved neighborhood-based algorithms for large-scale recommender systems},
+ booktitle = {Proceedings of the 2nd KDD Workshop on Large-Scale Recommender Systems and the Netflix Prize Competition (NETFLIX'08)},
+ year = {2008},
+ isbn = {978-1-60558-265-8},
+ address = {Las Vegas, Nevada},
+ pages = {4:1-4:6},
+ publisher = {ACM}
+}
+
+@article{Herlocker:analysis,
+year={2002},
+journal={Information Retrieval},
+volume={5},
+number={4},
+title={An Empirical Analysis of Design Choices in Neighborhood-Based Collaborative Filtering Algorithms},
+publisher={Kluwer Academic Publishers},
+author={Jon Herlocker and Joseph A. Konstan and John Riedl},
+pages={287-310}
+}
