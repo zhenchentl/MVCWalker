@@ -2,8 +2,8 @@
 %%BoundingBox: 0 0 818 572
 %%LanguageLevel: 2
 %%Creator: OriginLab Corporation
-%%Title: (C:\Users\ruxia\Desktop\Fig5-c.eps)
-%%CreationDate: Sun Apr 13 11:25:50 2014
+%%Title: (C:\Users\admin\Desktop\Fig8-c.eps)
+%%CreationDate: Sat Nov 02 15:12:41 2013
 %%EndComments
 
 /OriginLab::PSL1 128 dict dup begin def
@@ -30,7 +30,6 @@
 /s/show ld/xs/xshow ld/gls/glyphshow ld/xgls{cpt 3 1 roll add exch 3 -1 roll gls m}bd
 /cd/currentdict ld/i/index ld
 /DrawBox{4 2 roll m 1 index 0 rl 0 exch rl neg 0 rl cp}bd
-/plus.re { 6 { 3 index } repeat moveto 0 exch rlineto 0 rlineto pop pop neg 0 exch rlineto pop lineto closepath } def
 /DrawBcc{4 2 roll m 2 copy 0 lt exch 0 lt xor{dup 0 exch rl exch 0 rl neg 0 exch rl}{exch dup 0 rl exch 0 exch rl neg 0 rl}ifelse cp}bd
 /rectline{dup type/arraytype eq{dup length 0 exch 4 exch 4 sub{0 1 3{3 copy add get 4 1 roll pop}for pop 5 1 roll DrawBox}for pop}{DrawBox}ifelse}bd
 /rectpath{dup type/arraytype eq{dup length 0 exch 4 exch 4 sub{0 1 3{3 copy add get 4 1 roll pop}for pop 5 1 roll DrawBcc}for pop}{DrawBcc}ifelse}bd
@@ -58,75 +57,11 @@
  {cd/DataSource get dup type/filetype eq {mystring readstring pop}{exec}ifelse
  }L1imgmask end}if}{L1imgmask}ifelse
  }bd
-% Gradient function
-/GradientStep 1 150 div def
-/GradientStartRGB { /R1 exch def /G1 exch def /B1 exch def } def
-/GradientEndRGB { /R2 exch def /G2 exch def /B2 exch def
-/GradientSteps GradientLength GradientStep div def
-/GradientRStep R2 R1 sub GradientSteps div def
-/GradientGStep G2 G1 sub GradientSteps div def
-/GradientBStep B2 B1 sub GradientSteps div def
-} def
-/GradientStepRGB { /R1 R1 GradientRStep add def
-/G1 G1 GradientGStep add def
-/B1 B1 GradientBStep add def
-R1 G1 B1 setrgbcolor
-} def
 %%EndResource
 /rectclip{np rectpath clip np}wd
 /rectfill{gs np rectpath fi gr}wd
 /rectstroke{gs np dup type/arraytype eq{dup length 6 eq}{false}ifelse{1 index type/arraytype eq{exch}{5 1 roll}ifelse rectline concat st}{rectline st}ifelse gr}wd
-%%BeginResource: procset OriginLab::Image
-/OriginLab::Image 32 dict dup begin
-/BinProc{[currentfile mystring /readstring cvx /pop cvx] cvx bind}bd
-/HexProc{[currentfile mystring /readhexstring cvx /pop cvx] cvx bind}bd
-/Ascii85Proc{currentfile /ASCII85Decode filter}bd
-/LZWA85{currentfile /ASCII85Decode filter /LZWDecode filter}bd
-/ImgProcArray[/BinProc /HexProc /Ascii85Proc /LZWA85]def
-/ImgDict{/ImgDict 16 dict def ImgDict dup begin /ImageType 1 def /MultipleDataSource false def end}bd
-/L2Dec{{[1 0]}{[0 1]}ifelse}bd
-/BegImg{ /Img_sv save def
- /ImgDir ed ImgProcArray exch get /ImgProc exch ld
- dup /polarityflag ed L2Dec /polarity ed /smoothflag ed
- tr /dx 2 index def /dy 1 index abs def sc
- string /mystring ed /bpc ed /ih ed /iw ed
- }bd
-/EndImg {Img_sv restore}bd
-/DoXImg{ /rgb_lookup ed /hival ed ImgDict dup begin
- [/Indexed /DeviceRGB hival rgb_lookup] /L1img where{pop/ImgCS ed}{setcolorspace}ifelse
- /rgb_string iw 3 mul string def
- /Width iw def
- /Height ih def
- /Decode [0 1 bpc{2 mul}repeat 1 sub] def
- /ImageMatrix
-  ImgDir 0 eq{[iw 0 0 ih 0 0]}if
-  ImgDir 1 eq{[iw neg 0 0 ih iw 0]}if
-  ImgDir 2 eq{[iw 0 0 ih neg 0 ih]}if
-  ImgDir 3 eq{[iw neg 0 0 ih neg iw ih]}if
-  def
- /DataSource ImgProc def
- /BitsPerComponent bpc def
- /Interpolate smoothflag def
- end image}bd
-/DoImg{ ImgDict dup begin
- [/DeviceRGB] /L1img where{pop/ImgCS ed}{setcolorspace}ifelse
- /rgb_string iw 3 mul string def
- /Width iw def
- /Height ih def
- /Decode [0 1 0 1 0 1] def
- /ImageMatrix
-  ImgDir 0 eq{[iw 0 0 ih 0 0]}if
-  ImgDir 1 eq{[iw neg 0 0 ih iw 0]}if
-  ImgDir 2 eq{[iw 0 0 ih neg 0 ih]}if
-  ImgDir 3 eq{[iw neg 0 0 ih neg iw ih]}if
-  def
- /DataSource ImgProc def
- /BitsPerComponent 8 def
- /Interpolate smoothflag def
- end image}bd
-end def
-%%EndResource
-%%BeginFont: /MC1_ArialBold
+%%BeginFont: /MC148_ArialBold
 12 dict begin
 /FontInfo 8 dict dup begin
 /ItalicAngle 0 def
@@ -136,7 +71,7 @@ end def
 /StrikeoutThickness 102.00 def
 /isFixedPitch false def
 end readonly def
-/FontName /MC1_ArialBold def
+/FontName /MC148_ArialBold def
 /FontType 3 def
 /FontMatrix [1 2048 div 0 0 1 2048 div 0 0] def
 /FontBBox [-1286 -771 4096 2084] def
@@ -146,32 +81,44 @@ Encoding 46/s46 put
 Encoding 48/s48 put
 Encoding 49/s49 put
 Encoding 50/s50 put
+Encoding 51/s51 put
+Encoding 52/s52 put
 Encoding 53/s53 put
+Encoding 54/s54 put
+Encoding 55/s55 put
 Encoding 56/s56 put
 Encoding 57/s57 put
-/BoundingBoxes 9 dict def
+/BoundingBoxes 13 dict def
 BoundingBoxes begin
 /s32 [0 -434 569 1854] def
 /s46 [0 -434 569 1854] def
 /s48 [0 -434 1139 1854] def
 /s49 [0 -434 1139 1854] def
 /s50 [0 -434 1139 1854] def
+/s51 [0 -434 1139 1854] def
+/s52 [0 -434 1139 1854] def
 /s53 [0 -434 1139 1854] def
+/s54 [0 -434 1139 1854] def
+/s55 [0 -434 1139 1854] def
 /s56 [0 -434 1139 1854] def
 /s57 [0 -434 1139 1854] def
 end
-/Metrics 9 dict def
+/Metrics 13 dict def
  Metrics begin
 /s32 569 def
 /s46 569 def
 /s48 1139 def
 /s49 1139 def
 /s50 1139 def
+/s51 1139 def
+/s52 1139 def
 /s53 1139 def
+/s54 1139 def
+/s55 1139 def
 /s56 1139 def
 /s57 1139 def
 end
-/CharProcs 9 dict def
+/CharProcs 13 dict def
 CharProcs begin
 /.notdef {} def
 /s46 {
@@ -240,6 +187,55 @@ closepath } bind def
 511.83 312.33 492.67 286.33 478 261 c
 1036 261 478 261 1036 261 c
 closepath } bind def
+/s51 {
+77 389 m
+349 422 77 389 349 422 c
+357.67 352.67 381 299.67 419 263 c
+457 226.33 503 208 557 208 c
+615 208 663.83 230 703.5 274 c
+743.17 318 763 377.33 763 452 c
+763 522.67 744 578.67 706 620 c
+668 661.33 621.67 682 567 682 c
+531 682 488 675 438 661 c
+469 890 438 661 469 890 c
+545 888 603 904.5 643 939.5 c
+683 974.5 703 1021 703 1079 c
+703 1128.33 688.33 1167.67 659 1197 c
+629.67 1226.33 590.67 1241 542 1241 c
+494 1241 453 1224.33 419 1191 c
+385 1157.67 364.33 1109 357 1045 c
+98 1089 357 1045 98 1089 c
+116 1177.67 143.17 1248.5 179.5 1301.5 c
+215.83 1354.5 266.5 1396.17 331.5 1426.5 c
+396.5 1456.83 469.33 1472 550 1472 c
+688 1472 798.67 1428 882 1340 c
+950.67 1268 985 1186.67 985 1096 c
+985 967.33 914.67 864.67 774 788 c
+858 770 925.17 729.67 975.5 667 c
+1025.83 604.33 1051 528.67 1051 440 c
+1051 311.33 1004 201.67 910 111 c
+816 20.33 699 -25 559 -25 c
+426.33 -25 316.33 13.17 229 89.5 c
+141.67 165.83 91 265.67 77 389 c
+closepath } bind def
+/s52 {
+638 0 m
+638 295 638 0 638 295 c
+38 295 638 295 38 295 c
+38 541 38 295 38 541 c
+674 1472 38 541 674 1472 c
+910 1472 674 1472 910 1472 c
+910 542 910 1472 910 542 c
+1092 542 910 542 1092 542 c
+1092 295 1092 542 1092 295 c
+910 295 1092 295 910 295 c
+910 0 910 295 910 0 c
+638 0 910 0 638 0 c
+closepath 638 542 m
+638 1043 638 542 638 1043 c
+301 542 638 1043 301 542 c
+638 542 301 542 638 542 c
+closepath } bind def
 /s53 {
 91 377 m
 371 406 91 377 371 406 c
@@ -263,6 +259,47 @@ closepath } bind def
 876.67 39.67 744.33 -25 575 -25 c
 439.67 -25 329.33 11.33 244 84 c
 158.67 156.67 107.67 254.33 91 377 c
+closepath } bind def
+/s54 {
+1039 1107 m
+767 1077 1039 1107 767 1077 c
+760.33 1133 743 1174.33 715 1201 c
+687 1227.67 650.67 1241 606 1241 c
+546.67 1241 496.5 1214.33 455.5 1161 c
+414.5 1107.67 388.67 996.67 378 828 c
+448 910.67 535 952 639 952 c
+756.33 952 856.83 907.33 940.5 818 c
+1024.17 728.67 1066 613.33 1066 472 c
+1066 322 1022 201.67 934 111 c
+846 20.33 733 -25 595 -25 c
+447 -25 325.33 32.5 230 147.5 c
+134.67 262.5 87 451 87 713 c
+87 981.67 136.67 1175.33 236 1294 c
+335.33 1412.67 464.33 1472 623 1472 c
+734.33 1472 826.5 1440.83 899.5 1378.5 c
+972.5 1316.17 1019 1225.67 1039 1107 c
+closepath 402 494 m
+402 402.67 423 332.17 465 282.5 c
+507 232.83 555 208 609 208 c
+661 208 704.33 228.33 739 269 c
+773.67 309.67 791 376.33 791 469 c
+791 564.33 772.33 634.17 735 678.5 c
+697.67 722.83 651 745 595 745 c
+541 745 495.33 723.83 458 681.5 c
+420.67 639.17 402 576.67 402 494 c
+closepath } bind def
+/s55 {
+87 1185 m
+87 1446 87 1185 87 1446 c
+1048 1446 87 1446 1048 1446 c
+1048 1242 1048 1446 1048 1242 c
+968.67 1164 888 1052 806 906 c
+724 760 661.5 604.83 618.5 440.5 c
+575.5 276.17 554.33 129.33 555 0 c
+284 0 555 0 284 0 c
+288.67 202.67 330.5 409.33 409.5 620 c
+488.5 830.67 594 1019 726 1185 c
+87 1185 726 1185 87 1185 c
 closepath } bind def
 /s56 {
 328 791 m
@@ -337,9 +374,9 @@ end
 1 index /Encoding get exch get
 1 index /BuildGlyph get exec
 } bind def
-currentdict end /MC1_ArialBold exch definefont pop
+currentdict end /MC148_ArialBold exch definefont pop
 %%EndFont
-%%BeginFont: /MC2_ArialBold
+%%BeginFont: /MC149_ArialBold
 12 dict begin
 /FontInfo 8 dict dup begin
 /ItalicAngle 0 def
@@ -349,7 +386,7 @@ currentdict end /MC1_ArialBold exch definefont pop
 /StrikeoutThickness 102.00 def
 /isFixedPitch false def
 end readonly def
-/FontName /MC2_ArialBold def
+/FontName /MC149_ArialBold def
 /FontType 3 def
 /FontMatrix [1 2048 div 0 0 1 2048 div 0 0] def
 /FontBBox [-1286 -771 4096 2084] def
@@ -624,9 +661,9 @@ end
 1 index /Encoding get exch get
 1 index /BuildGlyph get exec
 } bind def
-currentdict end /MC2_ArialBold exch definefont pop
+currentdict end /MC149_ArialBold exch definefont pop
 %%EndFont
-%%BeginFont: /MC3_ArialBold
+%%BeginFont: /MC150_ArialBold
 12 dict begin
 /FontInfo 8 dict dup begin
 /ItalicAngle 0 def
@@ -636,24 +673,24 @@ currentdict end /MC2_ArialBold exch definefont pop
 /StrikeoutThickness 102.00 def
 /isFixedPitch false def
 end readonly def
-/FontName /MC3_ArialBold def
+/FontName /MC150_ArialBold def
 /FontType 3 def
 /FontMatrix [1 2048 div 0 0 1 2048 div 0 0] def
 /FontBBox [-1286 -771 4096 2084] def
 /Encoding 256 array def 0 1 255{Encoding exch/.notdef put}for
 Encoding 32/s32 put
 Encoding 67/s67 put
-Encoding 68/s68 put
 Encoding 77/s77 put
-Encoding 80/s80 put
+Encoding 78/s78 put
 Encoding 82/s82 put
-Encoding 84/s84 put
 Encoding 86/s86 put
 Encoding 87/s87 put
 Encoding 97/s97 put
+Encoding 98/s98 put
+Encoding 99/s99 put
+Encoding 100/s100 put
 Encoding 101/s101 put
-Encoding 103/s103 put
-Encoding 105/s105 put
+Encoding 102/s102 put
 Encoding 107/s107 put
 Encoding 108/s108 put
 Encoding 109/s109 put
@@ -661,22 +698,22 @@ Encoding 110/s110 put
 Encoding 111/s111 put
 Encoding 114/s114 put
 Encoding 115/s115 put
-Encoding 116/s116 put
+Encoding 117/s117 put
 /BoundingBoxes 22 dict def
 BoundingBoxes begin
 /s32 [0 -434 569 1854] def
 /s67 [0 -434 1479 1854] def
-/s68 [0 -434 1479 1854] def
 /s77 [0 -434 1706 1854] def
-/s80 [0 -434 1366 1854] def
+/s78 [0 -434 1479 1854] def
 /s82 [0 -434 1479 1854] def
-/s84 [0 -434 1251 1854] def
 /s86 [-1 -434 1366 1854] def
 /s87 [0 -434 1933 1854] def
 /s97 [0 -434 1139 1854] def
+/s98 [0 -434 1251 1854] def
+/s99 [0 -434 1139 1854] def
+/s100 [0 -434 1251 1854] def
 /s101 [0 -434 1139 1854] def
-/s103 [0 -434 1251 1854] def
-/s105 [0 -434 569 1854] def
+/s102 [0 -434 682 1854] def
 /s107 [0 -434 1139 1854] def
 /s108 [0 -434 569 1854] def
 /s109 [0 -434 1821 1854] def
@@ -684,23 +721,23 @@ BoundingBoxes begin
 /s111 [0 -434 1251 1854] def
 /s114 [0 -434 797 1854] def
 /s115 [0 -434 1139 1854] def
-/s116 [0 -434 682 1854] def
+/s117 [0 -434 1251 1854] def
 end
 /Metrics 22 dict def
  Metrics begin
 /s32 569 def
 /s67 1479 def
-/s68 1479 def
 /s77 1706 def
-/s80 1366 def
+/s78 1479 def
 /s82 1479 def
-/s84 1251 def
 /s86 1366 def
 /s87 1933 def
 /s97 1139 def
+/s98 1251 def
+/s99 1139 def
+/s100 1251 def
 /s101 1139 def
-/s103 1251 def
-/s105 569 def
+/s102 682 def
 /s107 1139 def
 /s108 569 def
 /s109 1821 def
@@ -708,7 +745,7 @@ end
 /s111 1251 def
 /s114 797 def
 /s115 1139 def
-/s116 682 def
+/s117 1251 def
 end
 /CharProcs 22 dict def
 CharProcs begin
@@ -734,32 +771,6 @@ CharProcs begin
 840.67 228 908.33 253 965 303 c
 1021.67 353 1062.33 431.67 1087 539 c
 closepath } bind def
-/s68 {
-148 1466 m
-689 1466 148 1466 689 1466 c
-811 1466 904 1456.67 968 1438 c
-1054 1412.67 1127.67 1367.67 1189 1303 c
-1250.33 1238.33 1297 1159.17 1329 1065.5 c
-1361 971.83 1377 856.33 1377 719 c
-1377 598.33 1362 494.33 1332 407 c
-1295.33 300.33 1243 214 1175 148 c
-1123.67 98 1054.33 59 967 31 c
-901.67 10.33 814.33 0 705 0 c
-148 0 705 0 148 0 c
-148 1466 148 0 148 1466 c
-closepath 444 1218 m
-444 247 444 1218 444 247 c
-665 247 444 247 665 247 c
-747.67 247 807.33 251.67 844 261 c
-892 273 931.83 293.33 963.5 322 c
-995.17 350.67 1021 397.83 1041 463.5 c
-1061 529.17 1071 618.67 1071 732 c
-1071 845.33 1061 932.33 1041 993 c
-1021 1053.67 993 1101 957 1135 c
-921 1169 875.33 1192 820 1204 c
-778.67 1213.33 697.67 1218 577 1218 c
-444 1218 577 1218 444 1218 c
-closepath } bind def
 /s77 {
 145 0 m
 145 1466 145 0 145 1466 c
@@ -776,30 +787,18 @@ closepath } bind def
 420 0 420 1154 420 0 c
 145 0 420 0 145 0 c
 closepath } bind def
-/s80 {
-149 0 m
-149 1466 149 0 149 1466 c
-624 1466 149 1466 624 1466 c
-804 1466 921.33 1458.67 976 1444 c
-1060 1422 1130.33 1374.17 1187 1300.5 c
-1243.67 1226.83 1272 1131.67 1272 1015 c
-1272 925 1255.67 849.33 1223 788 c
-1190.33 726.67 1148.83 678.5 1098.5 643.5 c
-1048.17 608.5 997 585.33 945 574 c
-874.33 560 772 553 638 553 c
-445 553 638 553 445 553 c
-445 0 445 553 445 0 c
-149 0 445 0 149 0 c
-closepath 445 1218 m
-445 802 445 1218 445 802 c
-607 802 445 802 607 802 c
-723.67 802 801.67 809.67 841 825 c
-880.33 840.33 911.17 864.33 933.5 897 c
-955.83 929.67 967 967.67 967 1011 c
-967 1064.33 951.33 1108.33 920 1143 c
-888.67 1177.67 849 1199.33 801 1208 c
-765.67 1214.67 694.67 1218 588 1218 c
-445 1218 588 1218 445 1218 c
+/s78 {
+152 0 m
+152 1466 152 0 152 1466 c
+440 1466 152 1466 440 1466 c
+1040 487 440 1466 1040 487 c
+1040 1466 1040 487 1040 1466 c
+1315 1466 1040 1466 1315 1466 c
+1315 0 1315 1466 1315 0 c
+1018 0 1315 0 1018 0 c
+427 956 1018 0 427 956 c
+427 0 427 956 427 0 c
+152 0 427 0 152 0 c
 closepath } bind def
 /s82 {
 150 0 m
@@ -831,17 +830,6 @@ closepath 446 846 m
 869 1216.33 797 1218 677 1218 c
 446 1218 677 1218 446 1218 c
 446 846 446 1218 446 846 c
-closepath } bind def
-/s84 {
-479 0 m
-479 1218 479 0 479 1218 c
-44 1218 479 1218 44 1218 c
-44 1466 44 1218 44 1466 c
-1209 1466 44 1466 1209 1466 c
-1209 1218 1209 1466 1209 1218 c
-775 1218 1209 1218 775 1218 c
-775 0 775 1218 775 0 c
-479 0 775 0 479 0 c
 closepath } bind def
 /s86 {
 523 0 m
@@ -907,6 +895,75 @@ closepath 733 510 m
 729.33 341 733 386.67 733 454 c
 733 510 733 454 733 510 c
 closepath } bind def
+/s98 {
+135 0 m
+135 1466 135 0 135 1466 c
+416 1466 135 1466 416 1466 c
+416 938 416 1466 416 938 c
+502.67 1036.67 605.33 1086 724 1086 c
+853.33 1086 960.33 1039.17 1045 945.5 c
+1129.67 851.83 1172 717.33 1172 542 c
+1172 360.67 1128.83 221 1042.5 123 c
+956.17 25 851.33 -24 728 -24 c
+667.33 -24 607.5 -8.83 548.5 21.5 c
+489.5 51.83 438.67 96.67 396 156 c
+396 0 396 156 396 0 c
+135 0 396 0 135 0 c
+closepath 414 554 m
+414 444 431.33 362.67 466 310 c
+514.67 235.33 579.33 198 660 198 c
+722 198 774.83 224.5 818.5 277.5 c
+862.17 330.5 884 414 884 528 c
+884 649.33 862 736.83 818 790.5 c
+774 844.17 717.67 871 649 871 c
+581.67 871 525.67 844.83 481 792.5 c
+436.33 740.17 414 660.67 414 554 c
+closepath } bind def
+/s99 {
+1073 748 m
+796 698 1073 748 796 698 c
+786.67 753.33 765.5 795 732.5 823 c
+699.5 851 656.67 865 604 865 c
+534 865 478.17 840.83 436.5 792.5 c
+394.83 744.17 374 663.33 374 550 c
+374 424 395.17 335 437.5 283 c
+479.83 231 536.67 205 608 205 c
+661.33 205 705 220.17 739 250.5 c
+773 280.83 797 333 811 407 c
+1087 360 811 407 1087 360 c
+1058.33 233.33 1003.33 137.67 922 73 c
+840.67 8.33 731.67 -24 595 -24 c
+439.67 -24 315.83 25 223.5 123 c
+131.17 221 85 356.67 85 530 c
+85 705.33 131.33 841.83 224 939.5 c
+316.67 1037.17 442 1086 600 1086 c
+729.33 1086 832.17 1058.17 908.5 1002.5 c
+984.83 946.83 1039.67 862 1073 748 c
+closepath } bind def
+/s100 {
+1121 0 m
+860 0 1121 0 860 0 c
+860 156 860 0 860 156 c
+816.67 95.33 765.5 50.17 706.5 20.5 c
+647.5 -9.17 588 -24 528 -24 c
+406 -24 301.5 25.17 214.5 123.5 c
+127.5 221.83 84 359 84 535 c
+84 715 126.33 851.83 211 945.5 c
+295.67 1039.17 402.67 1086 532 1086 c
+650.67 1086 753.33 1036.67 840 938 c
+840 1466 840 938 840 1466 c
+1121 1466 840 1466 1121 1466 c
+1121 0 1121 1466 1121 0 c
+closepath 371 554 m
+371 440.67 386.67 358.67 418 308 c
+463.33 234.67 526.67 198 608 198 c
+672.67 198 727.67 225.5 773 280.5 c
+818.33 335.5 841 417.67 841 527 c
+841 649 819 736.83 775 790.5 c
+731 844.17 674.67 871 606 871 c
+539.33 871 483.5 844.5 438.5 791.5 c
+393.5 738.5 371 659.33 371 554 c
+closepath } bind def
 /s101 {
 762 338 m
 1042 291 762 338 1042 291 c
@@ -930,52 +987,27 @@ closepath 778 622 m
 377 759.33 357.33 698.67 358 622 c
 778 622 358 622 778 622 c
 closepath } bind def
-/s103 {
-121 -70 m
-442 -109 121 -70 442 -109 c
-447.33 -146.33 459.67 -172 479 -186 c
-505.67 -206 547.67 -216 605 -216 c
-678.33 -216 733.33 -205 770 -183 c
-794.67 -168.33 813.33 -144.67 826 -112 c
-834.67 -88.67 839 -45.67 839 17 c
-839 172 839 17 839 172 c
-755 57.33 649 0 521 0 c
-378.33 0 265.33 60.33 182 181 c
-116.67 276.33 84 395 84 537 c
-84 715 126.83 851 212.5 945 c
-298.17 1039 404.67 1086 532 1086 c
-663.33 1086 771.67 1028.33 857 913 c
-857 1062 857 913 857 1062 c
-1120 1062 857 1062 1120 1062 c
-1120 109 1120 1062 1120 109 c
-1120 -16.33 1109.67 -110 1089 -172 c
-1068.33 -234 1039.33 -282.67 1002 -318 c
-964.67 -353.33 914.83 -381 852.5 -401 c
-790.17 -421 711.33 -431 616 -431 c
-436 -431 308.33 -400.17 233 -338.5 c
-157.67 -276.83 120 -198.67 120 -104 c
-120 -94.67 120.33 -83.33 121 -70 c
-closepath 372 553 m
-372 440.33 393.83 357.83 437.5 305.5 c
-481.17 253.17 535 227 599 227 c
-667.67 227 725.67 253.83 773 307.5 c
-820.33 361.17 844 440.67 844 546 c
-844 656 821.33 737.67 776 791 c
-730.67 844.33 673.33 871 604 871 c
-536.67 871 481.17 844.83 437.5 792.5 c
-393.83 740.17 372 660.33 372 553 c
-closepath } bind def
-/s105 {
-147 1206 m
-147 1466 147 1206 147 1466 c
-428 1466 147 1466 428 1466 c
-428 1206 428 1466 428 1206 c
-147 1206 428 1206 147 1206 c
-closepath 147 0 m
-147 1062 147 0 147 1062 c
-428 1062 147 1062 428 1062 c
-428 0 428 1062 428 0 c
-147 0 428 0 147 0 c
+/s102 {
+24 1062 m
+180 1062 24 1062 180 1062 c
+180 1142 180 1062 180 1142 c
+180 1231.33 189.5 1298 208.5 1342 c
+227.5 1386 262.5 1421.83 313.5 1449.5 c
+364.5 1477.17 429 1491 507 1491 c
+587 1491 665.33 1479 742 1455 c
+704 1259 742 1455 704 1259 c
+659.33 1269.67 616.33 1275 575 1275 c
+534.33 1275 505.17 1265.5 487.5 1246.5 c
+469.83 1227.5 461 1191 461 1137 c
+461 1062 461 1137 461 1062 c
+671 1062 461 1062 671 1062 c
+671 841 671 1062 671 841 c
+461 841 671 841 461 841 c
+461 0 461 841 461 0 c
+180 0 461 0 180 0 c
+180 841 180 0 180 841 c
+24 841 180 841 24 841 c
+24 1062 24 841 24 1062 c
 closepath } bind def
 /s107 {
 137 0 m
@@ -1121,29 +1153,27 @@ closepath } bind def
 412.33 -24 297.83 5.33 213.5 64 c
 129.17 122.67 74 202.33 48 303 c
 closepath } bind def
-/s116 {
-634 1062 m
-634 838 634 1062 634 838 c
-442 838 634 838 442 838 c
-442 410 442 838 442 410 c
-442 323.33 443.83 272.83 447.5 258.5 c
-451.17 244.17 459.5 232.33 472.5 223 c
-485.5 213.67 501.33 209 520 209 c
-546 209 583.67 218 633 236 c
-657 18 633 236 657 18 c
-591.67 -10 517.67 -24 435 -24 c
-384.33 -24 338.67 -15.5 298 1.5 c
-257.33 18.5 227.5 40.5 208.5 67.5 c
-189.5 94.5 176.33 131 169 177 c
-163 209.67 160 275.67 160 375 c
-160 838 160 375 160 838 c
-31 838 160 838 31 838 c
-31 1062 31 838 31 1062 c
-160 1062 31 1062 160 1062 c
-160 1273 160 1062 160 1273 c
-442 1437 160 1273 442 1437 c
-442 1062 442 1437 442 1062 c
-634 1062 442 1062 634 1062 c
+/s117 {
+846 0 m
+846 159 846 0 846 159 c
+807.33 102.33 756.5 57.67 693.5 25 c
+630.5 -7.67 564 -24 494 -24 c
+422.67 -24 358.67 -8.33 302 23 c
+245.33 54.33 204.33 98.33 179 155 c
+153.67 211.67 141 290 141 390 c
+141 1062 141 390 141 1062 c
+422 1062 141 1062 422 1062 c
+422 574 422 1062 422 574 c
+422 424.67 427.17 333.17 437.5 299.5 c
+447.83 265.83 466.67 239.17 494 219.5 c
+521.33 199.83 556 190 598 190 c
+646 190 689 203.17 727 229.5 c
+765 255.83 791 288.5 805 327.5 c
+819 366.5 826 462 826 614 c
+826 1062 826 614 826 1062 c
+1107 1062 826 1062 1107 1062 c
+1107 0 1107 1062 1107 0 c
+846 0 1107 0 846 0 c
 closepath } bind def
 end
 /BuildGlyph {
@@ -1153,9 +1183,9 @@ end
 1 index /Encoding get exch get
 1 index /BuildGlyph get exec
 } bind def
-currentdict end /MC3_ArialBold exch definefont pop
+currentdict end /MC150_ArialBold exch definefont pop
 %%EndFont
-%%BeginFont: /MC4_Arial
+%%BeginFont: /MC151_Arial
 12 dict begin
 /FontInfo 8 dict dup begin
 /ItalicAngle 0 def
@@ -1165,7 +1195,7 @@ currentdict end /MC3_ArialBold exch definefont pop
 /StrikeoutThickness 102.00 def
 /isFixedPitch false def
 end readonly def
-/FontName /MC4_Arial def
+/FontName /MC151_Arial def
 /FontType 3 def
 /FontMatrix [1 2048 div 0 0 1 2048 div 0 0] def
 /FontBBox [-1361 -665 4096 2060] def
@@ -1190,8 +1220,9 @@ end
 1 index /Encoding get exch get
 1 index /BuildGlyph get exec
 } bind def
-currentdict end /MC4_Arial exch definefont pop
+currentdict end /MC151_Arial exch definefont pop
 %%EndFont
+0 0 817.65 571.21 rectpath cl np
 /clipproc{clippath{[{/m cvx}{/l cvx}{/c cvx}{/cp cvx}pathforall}stopped
 {cleartomark[pathbbox exch 3 i sub exch 2 i sub/rectpath cvx}if]np}bd
 /iclmtx mtx cmtx def/iclpath clipproc xd/clinit{pathproc initclip np iclpath cl np exec}bd
@@ -1209,200 +1240,400 @@ currentdict end /MC4_Arial exch definefont pop
 0.240183 0.239628 sc
 
 /initmtx mtx cmtx def
-[0.999213 -0 0 -1.00157 0 2383.74] concat
 gs
 gs
+[0.999213 0 0 -1.00157 0 2383.74] concat
 1 -1 sc
-/MC1_ArialBold 106 self 579 -2224 m
-(2008)[59 59 59 59 ] xs
+/MC148_ArialBold 96 self 308 -2166 m
+(0)[53 ] xs
 1 -1 sc
 gr
 gs
+[0.999213 0 0 -1.00157 0 2383.74] concat
 1 -1 sc
-/MC1_ArialBold 106 self 1179 -2224 m
-(2009)[59 59 59 59 ] xs
-1 -1 sc
-gr
-gs
-1 -1 sc
-/MC1_ArialBold 106 self 1780 -2224 m
-(2010)[59 59 59 59 ] xs
+/MC148_ArialBold 96 self 708 -2166 m
+(15)[53 53 ] xs
 1 -1 sc
 gr
 gs
+[0.999213 0 0 -1.00157 0 2383.74] concat
 1 -1 sc
-/MC1_ArialBold 106 self 2380 -2224 m
-(2011)[59 59 59 59 ] xs
-1 -1 sc
-gr
-gs
-1 -1 sc
-/MC1_ArialBold 106 self 2980 -2224 m
-(2012)[59 59 59 59 ] xs
+/MC148_ArialBold 96 self 1134 -2166 m
+(30)[53 53 ] xs
 1 -1 sc
 gr
 gs
+[0.999213 0 0 -1.00157 0 2383.74] concat
 1 -1 sc
-/MC1_ArialBold 106 self 127 -1926 m
-(0.90)[59 29 59 59 ] xs
-1 -1 sc
-gr
-gs
-1 -1 sc
-/MC1_ArialBold 106 self 127 -1559 m
-(0.95)[59 29 59 59 ] xs
+/MC148_ArialBold 96 self 1560 -2166 m
+(45)[53 53 ] xs
 1 -1 sc
 gr
 gs
+[0.999213 0 0 -1.00157 0 2383.74] concat
 1 -1 sc
-/MC1_ArialBold 106 self 127 -1193 m
-(1.00)[59 29 59 59 ] xs
-1 -1 sc
-gr
-gs
-1 -1 sc
-/MC1_ArialBold 106 self 127 -826 m
-(1.05)[59 29 59 59 ] xs
+/MC148_ArialBold 96 self 1986 -2166 m
+(60)[53 53 ] xs
 1 -1 sc
 gr
 gs
+[0.999213 0 0 -1.00157 0 2383.74] concat
 1 -1 sc
-/MC1_ArialBold 106 self 127 -460 m
-(1.10)[59 29 59 59 ] xs
+/MC148_ArialBold 96 self 2412 -2166 m
+(75)[53 53 ] xs
 1 -1 sc
 gr
 gs
+[0.999213 0 0 -1.00157 0 2383.74] concat
 1 -1 sc
-/MC1_ArialBold 106 self 127 -93 m
-(1.15)[59 29 59 59 ] xs
+/MC148_ArialBold 96 self 2838 -2166 m
+(90)[53 53 ] xs
 1 -1 sc
 gr
-397 2097 m
-397 2078 l
-19 sw
+gs
+[0.999213 0 0 -1.00157 0 2383.74] concat
+1 -1 sc
+/MC148_ArialBold 96 self 3237 -2166 m
+(105)[53 53 53 ] xs
+1 -1 sc
+gr
+gs
+[0.999213 0 0 -1.00157 0 2383.74] concat
+1 -1 sc
+/MC148_ArialBold 96 self 145 -2060 m
+(0.6)[53 27 53 ] xs
+1 -1 sc
+gr
+gs
+[0.999213 0 0 -1.00157 0 2383.74] concat
+1 -1 sc
+/MC148_ArialBold 96 self 145 -1818 m
+(0.8)[53 27 53 ] xs
+1 -1 sc
+gr
+gs
+[0.999213 0 0 -1.00157 0 2383.74] concat
+1 -1 sc
+/MC148_ArialBold 96 self 145 -1575 m
+(1.0)[53 27 53 ] xs
+1 -1 sc
+gr
+gs
+[0.999213 0 0 -1.00157 0 2383.74] concat
+1 -1 sc
+/MC148_ArialBold 96 self 145 -1333 m
+(1.2)[53 27 53 ] xs
+1 -1 sc
+gr
+gs
+[0.999213 0 0 -1.00157 0 2383.74] concat
+1 -1 sc
+/MC148_ArialBold 96 self 145 -1090 m
+(1.4)[53 27 53 ] xs
+1 -1 sc
+gr
+gs
+[0.999213 0 0 -1.00157 0 2383.74] concat
+1 -1 sc
+/MC148_ArialBold 96 self 145 -848 m
+(1.6)[53 27 53 ] xs
+1 -1 sc
+gr
+gs
+[0.999213 0 0 -1.00157 0 2383.74] concat
+1 -1 sc
+/MC148_ArialBold 96 self 145 -605 m
+(1.8)[53 27 53 ] xs
+1 -1 sc
+gr
+gs
+[0.999213 0 0 -1.00157 0 2383.74] concat
+1 -1 sc
+/MC148_ArialBold 96 self 145 -363 m
+(2.0)[53 27 53 ] xs
+1 -1 sc
+gr
+gs
+[0.999213 0 0 -1.00157 0 2383.74] concat
+1 -1 sc
+/MC148_ArialBold 96 self 145 -120 m
+(2.2)[53 27 53 ] xs
+1 -1 sc
+gr
+[0.999213 0 0 -1.00157 0 2383.74] concat
+335 2069 m
+335 2035 l
+18 sw
 1 sj
 1 scap
 st
-697 2116 m
-697 2078 l
+548 2052 m
+548 2035 l
 st
-997 2097 m
-997 2078 l
+761 2069 m
+761 2035 l
 st
-1297 2116 m
-1297 2078 l
+974 2052 m
+974 2035 l
 st
-1597 2097 m
-1597 2078 l
+1187 2069 m
+1187 2035 l
 st
-1898 2116 m
-1898 2078 l
+1400 2052 m
+1400 2035 l
 st
-2198 2097 m
-2198 2078 l
+1613 2069 m
+1613 2035 l
 st
-2498 2116 m
-2498 2078 l
+1826 2052 m
+1826 2035 l
 st
-2798 2097 m
-2798 2078 l
+2039 2069 m
+2039 2035 l
 st
-3098 2116 m
-3098 2078 l
+2252 2052 m
+2252 2035 l
 st
-3398 2097 m
-3398 2078 l
+2465 2069 m
+2465 2035 l
 st
-397 2078 m
-3398 2078 l
+2678 2052 m
+2678 2035 l
 st
-378 2078 m
-397 2078 l
+2891 2069 m
+2891 2035 l
 st
-359 1895 m
-397 1895 l
+3104 2052 m
+3104 2035 l
 st
-378 1711 m
-397 1711 l
+3317 2069 m
+3317 2035 l
 st
-359 1528 m
-397 1528 l
+335 2035 m
+3317 2035 l
 st
-378 1345 m
-397 1345 l
+301 2035 m
+335 2035 l
 st
-359 1162 m
-397 1162 l
+318 1914 m
+335 1914 l
 st
-378 978 m
-397 978 l
+301 1793 m
+335 1793 l
 st
-359 795 m
-397 795 l
+318 1671 m
+335 1671 l
 st
-378 612 m
-397 612 l
+301 1550 m
+335 1550 l
 st
-359 429 m
-397 429 l
+318 1429 m
+335 1429 l
 st
-378 245 m
-397 245 l
+301 1308 m
+335 1308 l
 st
-359 62 m
-397 62 l
+318 1186 m
+335 1186 l
 st
-397 2078 m
-397 62 l
+301 1065 m
+335 1065 l
+st
+318 944 m
+335 944 l
+st
+301 823 m
+335 823 l
+st
+318 701 m
+335 701 l
+st
+301 580 m
+335 580 l
+st
+318 459 m
+335 459 l
+st
+301 338 m
+335 338 l
+st
+318 216 m
+335 216 l
+st
+301 95 m
+335 95 l
+st
+335 2035 m
+335 95 l
 st
 gs
-pathproc 397 62 3002 2017 np rectpath
+pathproc 335 95 2983 1941 np rectpath
 /eocl cland
 np exec
-1297 1066 m
-697 238 l
+619 1625 m
+477 1979 l
 st
-1898 1294 m
-1297 1066 l
+761 1403 m
+619 1625 l
 st
-2498 1711 m
-1898 1294 l
+903 1219 m
+761 1403 l
 st
-3098 1814 m
-2498 1711 l
+1045 1063 m
+903 1219 l
 st
-664 205 66 66 rectfill
-2498 1711 m
+1187 928 m
+1045 1063 l
+st
+1329 826 m
+1187 928 l
+st
+1471 738 m
+1329 826 l
+st
+1613 665 m
+1471 738 l
+st
+1755 600 m
+1613 665 l
+st
+1897 540 m
+1755 600 l
+st
+2039 487 m
+1897 540 l
+st
+2181 443 m
+2039 487 l
+st
+2323 399 m
+2181 443 l
+st
+2465 357 m
+2323 399 l
+st
+2607 322 m
+2465 357 l
+st
+2749 287 m
+2607 322 l
+st
+2891 254 m
+2749 287 l
+st
+3033 221 m
+2891 254 l
+st
+3175 192 m
+3033 221 l
+st
+447 1949 60 60 rectfill
+3033 221 m
 5 sw
-664 205 66 66 rectstroke
-1264 1033 66 66 rectfill
-1264 1033 66 66 rectstroke
-1865 1261 66 66 rectfill
-1865 1261 66 66 rectstroke
-2465 1678 66 66 rectfill
-2465 1678 66 66 rectstroke
-3065 1781 66 66 rectfill
-3065 1781 66 66 rectstroke
+447 1949 60 60 rectstroke
+589 1595 60 60 rectfill
+589 1595 60 60 rectstroke
+731 1373 60 60 rectfill
+731 1373 60 60 rectstroke
+873 1189 60 60 rectfill
+873 1189 60 60 rectstroke
+1015 1033 60 60 rectfill
+1015 1033 60 60 rectstroke
+1157 898 60 60 rectfill
+1157 898 60 60 rectstroke
+1299 796 60 60 rectfill
+1299 796 60 60 rectstroke
+1441 708 60 60 rectfill
+1441 708 60 60 rectstroke
+1583 635 60 60 rectfill
+1583 635 60 60 rectstroke
+1725 570 60 60 rectfill
+1725 570 60 60 rectstroke
+1867 510 60 60 rectfill
+1867 510 60 60 rectstroke
+2009 457 60 60 rectfill
+2009 457 60 60 rectstroke
+2151 413 60 60 rectfill
+2151 413 60 60 rectstroke
+2293 369 60 60 rectfill
+2293 369 60 60 rectstroke
+2435 327 60 60 rectfill
+2435 327 60 60 rectstroke
+2577 292 60 60 rectfill
+2577 292 60 60 rectstroke
+2719 257 60 60 rectfill
+2719 257 60 60 rectstroke
+2861 224 60 60 rectfill
+2861 224 60 60 rectstroke
+3003 191 60 60 rectfill
+3003 191 60 60 rectstroke
+3145 162 60 60 rectfill
+3145 162 60 60 rectstroke
 gr
 gs
-pathproc 397 62 3002 2017 np rectpath
+pathproc 335 95 2983 1941 np rectpath
 /eocl cland
 np exec
-1297 1198 m
-697 319 l
+619 1641 m
+477 1967 l
 1 0 0 rgb
 st
-1898 1440 m
-1297 1198 l
+761 1425 m
+619 1641 l
 st
-2498 1865 m
-1898 1440 l
+903 1249 m
+761 1425 l
 st
-3098 1858 m
-2498 1865 l
+1045 1103 m
+903 1249 l
+st
+1187 975 m
+1045 1103 l
+st
+1329 871 m
+1187 975 l
+st
+1471 783 m
+1329 871 l
+st
+1613 709 m
+1471 783 l
+st
+1755 644 m
+1613 709 l
+st
+1897 589 m
+1755 644 l
+st
+2039 537 m
+1897 589 l
+st
+2181 495 m
+2039 537 l
+st
+2323 452 m
+2181 495 l
+st
+2465 413 m
+2323 452 l
+st
+2607 376 m
+2465 413 l
+st
+2749 341 m
+2607 376 l
+st
+2891 308 m
+2749 341 l
+st
+3033 278 m
+2891 308 l
+st
+3175 250 m
+3033 278 l
 st
 np
-697 319 38 0 360  a
+477 1967 34 0 360  a
 cp
 gs
 eofi
@@ -1410,54 +1641,163 @@ gr
 5 sw
 st
 np
-1297 1198 38 0 360  a
+619 1641 34 0 360  a
 cp
 gs
 eofi
 gr
 st
 np
-1898 1440 38 0 360  a
+761 1425 34 0 360  a
 cp
 gs
 eofi
 gr
 st
 np
-2498 1865 38 0 360  a
+903 1249 34 0 360  a
 cp
 gs
 eofi
 gr
 st
 np
-3098 1858 38 0 360  a
+1045 1103 34 0 360  a
+cp
+gs
+eofi
+gr
+st
+np
+1187 975 34 0 360  a
+cp
+gs
+eofi
+gr
+st
+np
+1329 871 34 0 360  a
+cp
+gs
+eofi
+gr
+st
+np
+1471 783 34 0 360  a
+cp
+gs
+eofi
+gr
+st
+np
+1613 709 34 0 360  a
+cp
+gs
+eofi
+gr
+st
+np
+1755 644 34 0 360  a
+cp
+gs
+eofi
+gr
+st
+np
+1897 589 34 0 360  a
+cp
+gs
+eofi
+gr
+st
+np
+2039 537 34 0 360  a
+cp
+gs
+eofi
+gr
+st
+np
+2181 495 34 0 360  a
+cp
+gs
+eofi
+gr
+st
+np
+2323 452 34 0 360  a
+cp
+gs
+eofi
+gr
+st
+np
+2465 413 34 0 360  a
+cp
+gs
+eofi
+gr
+st
+np
+2607 376 34 0 360  a
+cp
+gs
+eofi
+gr
+st
+np
+2749 341 34 0 360  a
+cp
+gs
+eofi
+gr
+st
+np
+2891 308 34 0 360  a
+cp
+gs
+eofi
+gr
+st
+np
+3033 278 34 0 360  a
+cp
+gs
+eofi
+gr
+st
+np
+3175 250 34 0 360  a
 cp
 gs
 eofi
 gr
 st
 gr
+gs
 gs
 gs
 1 -1 sc
-123 -1524 tr
+106 -1560 tr
 90 ro
-/MC2_ArialBold 128 self 0 0 m
-(Coverage Rate)[94 80 73 73 51 73 80 73 36 94 73 44 73 ] xs
+/MC149_ArialBold 115 self 0 0 m
+(Coverage Rate)[86 73 66 66 46 66 73 66 33 86 66 40 66 ] xs
 1 -1 sc
+gr
 gr
 gr
 gs
+gs
 1 -1 sc
-/MC3_ArialBold 128 self 963 -2341 m
-(Dataset Partitioning Time Point)[91 70 42 70 70 70 42 35 84 70 49 42 35 42 35 77 77 35 77 77 35 77 35 112 70 35 84 77 35 77 42 ] xs
+/MC150_ArialBold 115 self 920 -2319 m
+(Number of Recommended Nodes)[83 70 102 70 64 45 32 70 38 32 83 64 64 70 102 102 64 70 70 64 70 32 83 70 70 64 64 ] xs
 1 -1 sc
 gr
-2114 49 m
-3251 49 l
-3251 382 l
-2114 382 l
+gr
+2249 536 m
+3287 536 l
+3287 841 l
+2249 841 l
 cp
 gs
 1 1 1 rgb
@@ -1468,34 +1808,36 @@ st
 gs
 gs
 gs
-2195 147 m
-2487 147 l
-19 sw
+2323 626 m
+2589 626 l
+18 sw
 st
 gr
-2308 114 66 66 rectfill
-2114 382 m
+2426 597 60 60 rectfill
+2249 841 m
 5 sw
-2308 114 66 66 rectstroke
+2426 597 60 60 rectstroke
 gr
 1 -1 sc
-/MC4_Arial 130 self 2487 -191 m
-( )[36 ] xs
-1 -1 sc
-1 -1 sc
-/MC3_ArialBold 128 self 2523 -191 m
-(MVCWalker)[105 84 91 119 70 35 70 70 49 ] xs
+/MC151_Arial 119 self 2589 -666 m
+( )[33 ] xs
 1 -1 sc
 gs
+1 -1 sc
+/MC150_ArialBold 115 self 2622 -666 m
+(MVCWalker)[95 77 83 109 64 32 64 64 45 ] xs
+1 -1 sc
+gr
 gs
-2195 308 m
-2487 308 l
-19 sw
+gs
+2323 773 m
+2589 773 l
+18 sw
 1 0 0 rgb
 st
 gr
 np
-2341 308 38 0 360  a
+2456 774 34 0 360  a
 cp
 gs
 1 0 0 rgb
@@ -1506,13 +1848,15 @@ gr
 st
 gr
 1 -1 sc
-2487 -352 m
-( )[35 ] xs
+/MC150_ArialBold 115 self 2589 -813 m
+( )[32 ] xs
 1 -1 sc
+gs
 1 -1 sc
-2522 -352 m
-(RWR)[91 119 91 ] xs
+2621 -813 m
+(RWR)[83 109 83 ] xs
 1 -1 sc
+gr
 gr
 gr
 Save0 restore end
