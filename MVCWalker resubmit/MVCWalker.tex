@@ -39,12 +39,12 @@
 \IEEEcompsoctitleabstractindextext{%
 \begin{abstract}
 %\boldmath
-In academia, scientific research achievements would be inconceivable without academic collaboration and cooperation among researchers. Previous studies have discovered that productive scholars tend to be more collaborative. However, it is often difficult and time-consuming for researchers to find the most valuable collaborators (MVCs) from a large volume of big scholarly data. In this work, we present MVCWalker, an innovative model, that stands on the shoulders of RWR (Random Walk with Restart) to recommend collaborators to scholars, based on big scholarly data. Three academic factors (i.e. coauthor order, latest collaboration time and times of collaboration) are exploited to define link importance in academic social networks for the sake of recommendation quality. We conducted extensive experiments on DBLP data set in order to compare MVCWalker to the basic model of RWR and the common neighbor-based model FOF in various aspects (e.g. the impact of critical parameters, the effect of academic factors and the performance over the entire DBLP dataset). Our experimental results show that incorporating the above factors into RWR can improve the precision, recall rate and coverage rate of academic collaboration recommendations.
+In academia, scientific research achievements would be inconceivable without academic collaboration and cooperation among researchers. Previous studies have discovered that productive scholars tend to be more collaborative. However, it is often difficult and time-consuming for researchers to find the most valuable collaborators (MVCs) from a large volume of big scholarly data. In this work, we present MVCWalker, an innovative model, that stands on the shoulders of RWR (Random Walk with Restart) to recommend collaborators to scholars, based on big scholarly data. Three academic factors (i.e. coauthor order, latest collaboration time and times of collaboration) are exploited to define link importance in academic social networks for the sake of recommendation quality. We conducted extensive experiments on DBLP data set in order to compare MVCWalker to the basic model of RWR and the common neighbor-based model FOF in various aspects (e.g. the impact of critical parameters, the effect of academic factors and the performance over the DBLP dataset). Our experimental results show that incorporating the above factors into random walk model can improve the precision, recall rate and coverage rate of academic collaboration recommendations.
 \end{abstract}
 
 % Note that keywords are not normally used for peerreview papers.
 \begin{IEEEkeywords}
-Most valuable collaborator, Scientific recommendation, Big scholarly data, Random Walk model, Link importance.
+Most valuable collaborator, Academic recommendation, Big scholarly data, Random Walk model, Link importance.
 \end{IEEEkeywords}}
 
 
@@ -118,16 +118,15 @@ In this section, we describe the details of MVCWalker. Following problem stateme
 \hline
 Symbol & Definition  \\
 \hline
-$MR$	           & \multirow{1}{2.8in}{$N\ast1$ ranking score vector of MVCs}	                             \\
-$p_{i}$            & \multirow{1}{2.8in}{Node $i$} 	                      \\
-$L(p)$	           & \multirow{1}{2.8in}{Number of all the neighbors of node $p$}                           \\
-$N(p)$	           & \multirow{1}{2.8in}{Set of nodes incident to node $p$}             \\
+$MR$	           & \multirow{1}{2.8in}{$N\ast1$ ranking score vector}	                             \\
+$p_{i}$            & \multirow{1}{2.8in}{Node $p_{i}$} 	                      \\
+$L(p_{i})$	           & \multirow{1}{2.8in}{Number of all the neighbors of node $p_{i}$}                           \\
+$M(p_{i})$	           & \multirow{1}{2.8in}{Set of nodes incident to node $p_{i}$}             \\
 \multirow{2}{*}{$\alpha$}	  & \multirow{2}{2.8in}{Damping coefficient: the probability of a walker walking to the next neighbor}                        \\
 ~~	   & ~~                       \\
 $N$	   & \multirow{1}{2.8in}{Total number of nodes in a graph}    \\
 $\mathbf{S}$	   & \multirow{1}{2.8in}{Transfer matrix}   \\
-$I$	   & \multirow{1}{2.8in}{$N\ast1$ starting vector for RWR}                                     \\
-$q$	   & \multirow{1}{2.8in}{$N\ast1$ starting vector for personalized RWR}	                                     \\
+$q$	   & \multirow{1}{2.8in}{$N\ast1$ initial vector of $MR$}	                                     \\
 $t$  & \multirow{1}{2.8in}{Iteration times}  \\
 $LIM(p_{i}, p_{j})$  & \multirow{1}{2.8in}{Link importance of $p_{i}$ and $p_{j}$}               \\
 $DCL(p_{i}, p_{j})$  & \multirow{1}{2.8in}{Distance in coauthor list of $p_{i}$ and $p_{j}$ }	                 \\
@@ -135,7 +134,7 @@ $DCL(p_{i}, p_{j})$  & \multirow{1}{2.8in}{Distance in coauthor list of $p_{i}$ 
 ~~	   & ~~                       \\
 $P$	   & \multirow{1}{2.8in}{Precision of the recommendation result}                      \\
 $R$	   & \multirow{1}{2.8in}{Recall rate of the recommendation result}	                                                 \\
-$C$    & \multirow{1}{2.8in}{Coverage rate of the recommendation result}	                                             \\
+$c$    & \multirow{1}{2.8in}{Coverage rate of the recommendation result}	                                             \\
 \hline
 \end{tabular*}
 \end{table}
@@ -181,9 +180,9 @@ The detailed process of MVCWalker is described below and the corresponding pseud
 \end{figure}
 \begin{itemize}
 \item The initial input data of MVCWalker is a set of several years' papers published by many scholars. To extract the coauthor network, we regard authors as nodes in the network. Before that, it is necessary to filter out the isolated nodes and weak nodes (with small degree). We define the graph $G$ as the coauthor network, and $P$ as the set of the nodes.
-\item If some authors have worked for one publication together, add edges among all those authors, which are defined as set $E$. In this step, we calculate the weight of each edge which is called the link importance in MVCWalker. Some attributes of collaboration should be taken into account (e.g. coauthor order, latest collaboration time point, and collaboration times), which will be described in the next section. We define the link importance between the nodes $P_{i}$ and $P_{j}$ as $w_{i,j}$.
-\item Before starting the random walk, we need to acquire the transfer matrix $S$ as described in Algorithm 1. To be specific, we denote $P_{i}$ as the current node while $P_{j}$ as the next node. $\mathbf{S}$ is the set of probabilities for each $P_{i}$ in $G$ skipping to next node $P_{j}$. This can be described as $S_{i,j}=\frac{W_{i,j}}{\sum_{P_{k}\in N(P_{i})} W_{i,k}}$, while $N(P_{i})$ is the set of neighbors of $P_{i}$.
-\item MVCWalker starts with initializing the rank score vector $MR^{(0)}$ and the restart probability vector $q$ as (0,\ldots,1,\ldots,0). The target node $P_{i}$ is set to 1 while others are set to 0. MVCWalker iterates the traversal starting with node $P_{i}$ until random walk stops walking and assigns each candidate node $P_{k}$ a stable probability $MR_{k}$. Thus we get the rank score vector $MR$. Then sort the nodes in accordance to their corresponding rank scores.
+\item If some authors have worked for one publication together, add edges among all those authors, which are defined as set $E$. In this step, we calculate the weight of each edge which is called the link importance in MVCWalker. Some attributes of collaboration should be taken into account (e.g. coauthor order, latest collaboration time point, and collaboration times), which will be described in the next section. We define the link importance between the nodes $P_{i}$ and $P_{j}$ as $LIM(P_{i},p_{j})$.
+\item Before starting the random walk, we need to acquire the transfer matrix $S$ as described in Algorithm 1. To be specific, we denote $P_{i}$ as the current node while $P_{j}$ as the next node. $\mathbf{S}$ is the set of probabilities for each $P_{i}$ in $G$ skipping to next node $P_{j}$. This can be described as $S_{i,j}=\frac{LIM(P_{i},p_{j})}{\sum_{P_{k}\in M(P_{i})} LIM(P_{i},p_{k})}$, while $M(P_{i})$ is the set of neighbors of $P_{i}$.
+\item MVCWalker starts with initializing the rank score vector $MR^{(0)}$ and the restart probability vector $q$ as (0,\ldots,1,\ldots,0). The target node $P_{i}$ is set to 1 while others are set to 0. MVCWalker iterates the traversal starting with node $P_{i}$ until random walk stops walking and assigns each candidate node $P_{k}$ a stable probability $MR(p_{k})$. Thus we get the rank score vector $MR$. Then sort the nodes in accordance to their corresponding rank scores.
 \item Finally, the TOP N nodes in the $MR$ list are recommended to the target nodes. Of course, we can take out the nodes which have been in its coauthor list before recommending. That is the new co-authors recommendation.
 \end{itemize}
 
